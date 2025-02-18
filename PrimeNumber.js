@@ -1,4 +1,6 @@
-function PrimeNumber(N) {
+// Identificar si un numero es primo o no
+
+function NumeroPrimo(N) {
     if (N < 2) {
         console.log(`${N} no es primo`);
         return;
@@ -14,5 +16,5 @@ function PrimeNumber(N) {
     console.log(`${N} es primo`);
 }
 
-PrimeNumber(1)
-PrimeNumber(2)
+NumeroPrimo(1)
+NumeroPrimo(2)
