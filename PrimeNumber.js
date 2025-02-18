@@ -1,3 +1,6 @@
+
+
+
 function PrimeNumber(N) {
     if (N < 2) {
         console.log(`${N} no es primo`);

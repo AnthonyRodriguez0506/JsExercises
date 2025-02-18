@@ -6,4 +6,4 @@ function getRandomNumber() {
     return result
   }
 
-getRandomNumber()
+getRandomNumber(10)
