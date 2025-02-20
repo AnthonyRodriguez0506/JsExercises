@@ -1,14 +1,14 @@
-function clasificarEdad (n) {
+function clasificarEdad(n) {
 
-    if (n === 0) {
-        console.log (`${n} no es una edad valida`)
+    if (n <= 0) {  
+        console.log(`${n} no es una edad válida`);
     } else if (n <= 17) {
         console.log("Eres menor de edad");
-    } else if (n >= 18 && n <= 64) {
+    } else if (n <= 64) {
         console.log("Eres un adulto");
-    } else if (n >= 65) {
-        console.log("Eres un adulto Mayor");
+    } else {
+        console.log("Eres un adulto mayor");
     }
- }
- 
- clasificarEdad(0);
+}
+
+clasificarEdad(-19)
